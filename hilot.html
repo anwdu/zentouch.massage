@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="footer.css">
+    <title>ZENTouch - Massage Therapy</title>
+    <style>
+* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            position: relative; /* Added */
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .nav_logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #28bf96;
+            text-transform: uppercase;
+        }
+        .nav_links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        .nav_links li a {
+            text-decoration: none;
+            color: #6b7280;
+            transition: color 0.3s ease;
+        }
+        .nav_links li a:hover {
+            color: #28bf96;
+        }
+        /* Page Header Styles */
+        .page_header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .page_header h1 {
+            font-size: 2.5rem;
+            color: #28bf96;
+            margin-bottom: 0.5rem;
+        }
+        .page_header .typeM {
+            font-size: 1.2rem;
+            color: #6b7280;
+        }
+        /* Container Styles */
+        .container2 {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+        /* Therapist Info Styles */
+        .therapist-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .therapist-info img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .therapist-info h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .therapist-info p {
+            font-size: 1rem;
+            color: #6b7280;
+            margin-bottom: 0.5rem;
+        }
+        /* Reviews Styles */
+        .reviews2 {
+            margin-top: 30px;
+        }
+        .review2 {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .review2 p {
+            margin-bottom: 0.5rem;
+        }
+        .btn {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #28bf96;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #209677;
+        }
+        .text_color{
+        font-size: 1.5rem;
+        color: #28bf96;
+        font-weight: 600;
+        }
+        /* Back Button Styles */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #28bf96;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none; /* Added */
+
+        }
+        .back-button:hover {
+            background-color: #209677;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav_logo">ZENTouch</div>
+            <ul class="nav_links">
+                <li><a href="homepage.html">Home</a></li>
+                <p class="text_color">Service</p>
+                <li><a href="#">About</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="login.html">
+                <button class="btn">Register Now</button>
+            </a>
+        </nav>
+        <div class="page_header">
+            <h1>Our Massage Therapists</h1>
+            <p class="typeM">Book a Massage Therapist</p>
+        </div>
+        <div class="container2">
+            <div class="therapist-info">
+                <img src="assets/swedish.jpg" alt="Maria Cruz - Massage Therapist">
+                <h2>Maria Cruz</h2>
+                <p>Experience: 7 years</p>
+                <p>Specialization: Hilot Massage, Herbal Therapy</p>
+                <button class="btn" onclick="window.location.href='booking.html'">Book Now</button>
+            </div>
+            <div class="reviews2">
+                <h2>Reviews</h2>
+                <div class="review2">
+                    <p><strong>Customer Name:</strong> Sofia Ramirez</p>
+                    <p><strong>Rating:</strong> 5/5</p>
+                    <p>Maria's hilot massage is truly transformative. Her intuitive touch and use of traditional techniques helped release deep-seated tension, leaving me feeling renewed and balanced. Highly recommend!</p>
+                </div>
+                <div class="review2">
+                    <p><strong>Customer Name:</strong> Diego Garcia</p>
+                    <p><strong>Rating:</strong> 4/5</p>
+                    <p>I had an amazing experience with Maria's hilot massage. Her calming presence and skilled hands worked wonders on my body, relieving both physical and emotional stress. A truly rejuvenating session!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="therapist-info">
+                <img src="assets/Download premium image of Female message therapist giving a massage at a spa by Jira about spa therapist, massage, aroma, aromatherapy, and beauty 428503.jpg" alt="Juan Dela Cruz - Massage Therapist">
+                <h2>Juan Dela Cruz</h2>
+                <p>Experience: 10 years</p>
+                <p>Specialization: Hilot Massage, Cupping Therapy</p>
+                <button class="btn" onclick="window.location.href='booking.html'">Book Now</button>
+            </div>
+            <div class="reviews2">
+                <h2>Reviews</h2>
+                <div class="review2">
+                    <p><strong>Customer Name:</strong> Maria Santos</p>
+                    <p><strong>Rating:</strong> 5/5</p>
+                    <p>Juan's hilot massage is truly exceptional. His deep understanding of traditional healing techniques combined with his intuitive touch create a profoundly healing experience. Highly recommend!</p>
+                </div>
+                <div class="review2">
+                    <p><strong>Customer Name:</strong> Carlos Hernandez</p>
+                    <p><strong>Rating:</strong> 4/5</p>
+                    <p>I had a great experience with Juan's hilot massage. His technique was both soothing and invigorating, leaving me feeling balanced and revitalized. A wonderful session!</p>
+                </div>
+            </div>
+        </div>
+        <a href="service.html" class="back-button"><i class="ri-arrow-go-back-fill"></i> Back</a>      
+    </div>
+</body>
+<footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="content">
+          <p>Tranquil Touch Massage Therapist is dedicated to providing rejuvenating and therapeutic massage experiences tailored to meet the unique needs of each individual. With a team of skilled and compassionate therapists, we strive to create a serene oasis where clients can escape the stresses of daily life and embark on a journey of relaxation and healing. Our mission is to promote overall wellness and enhance the quality of life through the power of touch, fostering a sense of balance, harmony, and tranquility for all who walk through our doors.</p>
+          <div class="social">
+            <a href="https://www.facebook.com/mico.chavez.311"><span class="fab fa-facebook-f"></span></a>
+            <a href="https://www.youtube.com/"><span class="fab fa-youtube"></span></a>
+            <a href="https://www.instagram.com/zevac.h?igsh=eGt5ZGtndTIzYmg1"><span class="fab fa-instagram"></span></a>
+            <a href="https://www.tiktok.com/@oha_haa?_t=8m24vEwUtKa&_r=1"><span class="fab fa-tiktok"></span></a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Addition Hills, Mandaluyong, National Capital Region, Philippines</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">0992 863 3909</span><p>
+            <span class="text">   0955 224 9348</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">zevach.micss@gmail.com</span>
+                 <span class="text"  >aujscnilloearlchristian@gmail.com</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <center>
+        <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+</html>
